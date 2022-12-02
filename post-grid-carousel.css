@@ -1,0 +1,40 @@
+/*card*/
+.post_grid_carousel .card-recent_post {
+    width: 100%;
+    margin: 0;
+}
+.post_grid_carousel {
+    padding-top: 12px;
+}
+.post_grid_carousel .swiper-wrapper {
+    position: static;
+}
+.box-carousel-post .swiper-button-prev {
+    left: -20px;
+}
+.box-carousel-post .swiper-button-next {
+    right: -20px;
+}
+/*destop medium*/
+@media (max-width: 1600px){
+}
+/*laptop*/
+@media (max-width: 1280px){
+}
+/*ipad (tablet)*/
+@media (max-width: 1024px) {
+    .box-carousel-post .swiper-button-prev {
+        left: 0;
+    }
+    .box-carousel-post .swiper-button-next {
+        right: 0;
+    }
+}
+/*iphone8 (smartphone)*/
+@media (max-width: 575.98px) {
+
+}
+/*iphone5 (small smartphone)*/
+@media (max-width: 360px) {
+
+}
